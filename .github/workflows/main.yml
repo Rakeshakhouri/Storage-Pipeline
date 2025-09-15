@@ -13,3 +13,13 @@ jobs:
       with:
           version: 1.13.0
            
+    - name: Azure Login
+      uses: Azure/login@v2.3.0
+      with:
+        client-id: 27c28e37-8d7d-4919-a47d-c21ad3f88222
+        tenant-id: 4219d509-5517-451d-8c28-e650b1f915aa
+        subscription-id: e8e67e49-af5a-4a37-abc9-4599917aee83
+        # Set this value to true to enable Azure PowerShell Login in addition to Azure CLI login
+        ENTITY. Default value is SERVICE_PRINCIPAL
+    auth-type: # optional, default is SERVICE_PRINCIPAL
+          
