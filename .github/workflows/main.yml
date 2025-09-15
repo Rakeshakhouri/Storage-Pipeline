@@ -80,4 +80,7 @@ terraform-apply:
               id: apply
               run: terraform apply --auto-approve
               continue-on-error: true
+              working-directory: environment/dev
+              run: terraform apply --auto-approve
+              continue-on-error: true
               working-directory: environments/dev
